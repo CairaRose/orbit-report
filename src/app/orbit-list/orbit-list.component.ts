@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Satellite } from '../satellite';
+import {Component, OnInit, Input } from '@angular/core';
+import {Satellite} from '../satellite';
 
 @Component({
   selector: 'app-orbit-list',
