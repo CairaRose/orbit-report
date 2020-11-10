@@ -1,4 +1,3 @@
-<app-orbit-list [satellites]="app.component.displayList()"></app-orbit-list>
 <h3>Orbit Report</h3>
 <table>
    <tr class="header-row">
@@ -15,4 +14,5 @@
       <td>{{satellite.orbitType}}</td>
       <td>{{satellite.launchDate}}</td> 
    </tr>
+   <app-orbit-list [satellites]="displayList"></app-orbit-list>
 </table>
