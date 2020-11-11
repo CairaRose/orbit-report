@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { Satellite } from './satellite';
-
+import { Satellite } from './satellite'; 
 
 @Component({
   selector: 'app-root',
